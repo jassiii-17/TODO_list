@@ -1,0 +1,116 @@
+html {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  border-radius: 2%;
+}
+
+body {
+  width: 400px;
+  height: 300px;
+  font-size: 10px;
+  font-family: "Signika", sans-serif;
+  background-color: #2c715efb;
+  color: white;
+  padding: 0 2rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0 1.5rem 0;
+  font-weight: bolder;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.task-input {
+  width: 30rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  background-color: #242627;
+  font-size: 1rem;
+  color: white;
+}
+
+.tasks-list-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.7rem 0rem;
+}
+
+.task-div:not(:last-child) {
+  padding-bottom: 1.5rem;
+  border-bottom: solid 1px black;
+}
+
+.task-text {
+  justify-self: center;
+  max-width: 20rem;
+  word-wrap: break-word;
+  font-size: 1.3rem;
+  vertical-align: middle;
+  line-height: 1.5;
+}
+
+.task-completed {
+  text-decoration: line-through;
+  font-style: italic;
+  color: #2a363b80;
+}
+
+.task-controls {
+  display: flex;
+  align-items: center;
+}
+
+.task-clear-div {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem 0 1.5rem 0;
+}
+
+.task-btn {
+  min-width: 4rem;
+  border: none;
+  outline: none;
+  padding: 0.7rem 0.9rem;
+  background-color: #242627;
+  color: white;
+  font-family: "Signika", sans-serif;
+}
+
+.task-btn:not(:last-child) {
+  border-right: solid 1px black;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.task-btn:hover,
+.task-btn:focus {
+  background-color: goldenrod;
+}
+
+.task-input,
+.task-btn-edit {
+  border-radius: 20px 20px 20px 20px;
+}
+
+.task-btn-submit,
+.task-btn-do {
+  border-radius: 20px 20px 20px 20px;
+}
+
+.task-btn-clear {
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
