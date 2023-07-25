@@ -1,4 +1,4 @@
-<img width="640" alt="Screenshot 2023-07-25 at 3 33 44 AM" src="https://github.com/jassiii-17/TODO_list/assets/75804322/7951bc5d-d889-4b10-83a8-9c9418fb43cc"># TO DO List
+TO DO List
 Chrome extention for TO DO list
 
 Welcome to Task Master, the ultimate Chrome extension designed to supercharge your productivity and help you conquer your daily tasks effortlessly. With Task Master, managing your to-do list becomes a breeze, allowing you to stay focused, organized, and in control of your time. Say goodbye to chaos and hello to a more productive and fulfilling life with this feature-rich to-do list companion.
